@@ -5,16 +5,16 @@
 <!-- [tool call] の行は、表示された行をそのまま貼り付けてください。終わらなかった STEP は、空欄のままでかまいません。 -->
 
 - STEP 1 のツールの名前：
-- STEP 2 の [tool call]：
-- STEP 3 の [tool call]：
-- STEP 4 の [tool call]：
+- STEP 2 の [tool call]：MCP サーバー（app/mcp_servers.json）
+- STEP 3 の [tool call]：fetch_fetch({'url': 'https://modelcontextprotocol.io/'})
+- STEP 4 の [tool call]： glossary_search_glossary({'query': 'S3'})
 - 気づき・疑問：
 
 ## 宿題
 
 <!-- 基礎・実装・発展のどれか1つに取り組めば完了です。 -->
 
-- 取り組んだレベル：基礎 / 実装 / 発展
-- やったこと：
-- 結果：
+- 取り組んだレベル：基礎 
+- やったこと：mcp_server.pyを修正した
+- 結果：正常に動いた。
 - 気づき・疑問：
